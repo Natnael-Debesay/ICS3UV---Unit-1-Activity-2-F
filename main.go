@@ -14,7 +14,7 @@ func main() {
 	fmt.Println("2009 + 2027 = " + String(2009 + 2027))
 	
 	//string literal text
-	fmt.Println("2009 - 2027 = " + String(2009 - git a2027))
+	fmt.Println("2009 - 2027 = " + String(2009 - 2027))
 
 	//string literal text
 	fmt.Println("2009 * 2027 = " + String(2009 * 2027))
