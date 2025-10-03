@@ -11,19 +11,19 @@ import "fmt"
 
 func main() {
 	//string literal text
-	fmt.Println("2009 + 2027 = " + String(2009 + 2027))
+	fmt.Println("2009 + 2027 = " + fmt.Sprint(2009+2027))
 	
 	//string literal text
-	fmt.Println("2009 - 2027 = " + String(2009 - 2027))
+	fmt.Println("2009 - 2027 = " + fmt.Sprint(2009-2027))
 
 	//string literal text
-	fmt.Println("2009 * 2027 = " + String(2009 * 2027))
+	fmt.Println("2009 * 2027 = " + fmt.Sprint(2009*2027))
 
 	//string literal text
-	fmt.Println("2009 / 2027 = "  + String(2009 / 2027))
+	fmt.Println("2009 / 2027 = "  + fmt.Sprint(2009 / 2027))
 
 	//string literal text
-	fmt.Println("2009 % 2027 = " + String(2009 % 2027))
+	fmt.Println("2009 % 2027 = " + fmt.Sprint(2009%2027))
 
 	fmt.Println("\nDone.")
 }
